@@ -12,15 +12,15 @@ macOS menu bar application to speak the revolutionary language of tech bro or co
 ## Installation
 Head to the ![Releases](https://github.com/joshua-mae/tech-bro-talk/releases) to find the latest dmg 
 
-## Acknowledgements
-The APIs that I used came from these two places:
-- ![Tech Slang](https://github.com/PerryPal21/Techy-API)
-- ![Corporate Slang](https://github.com/sameerkumar18/corporate-bs-generator-api)
-
 ## Screenshots
 <p>
   <img src="https://github.com/joshua-mae/tech-bro-talk/blob/752d7cfa561eba6a267dd8ef162b8a67795d4b12/screenshots/TechSpeak-Screenshot.png" width="325">
 </p>
+
+## Acknowledgements
+The APIs that I used came from these two places:
+- ![Tech Slang](https://github.com/PerryPal21/Techy-API)
+- ![Corporate Slang](https://github.com/sameerkumar18/corporate-bs-generator-api)
 
 ## Author 
 Joshua Mae

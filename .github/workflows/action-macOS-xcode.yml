@@ -24,4 +24,7 @@ jobs:
       - name: Clean macOS project
         run: xcodebuild clean
 
+      - name: Build App
+        run: xcodebuild -project "TechSpeak.xcodeproj" -scheme "TechSpeak" -destination "generic/platform=macOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+
       

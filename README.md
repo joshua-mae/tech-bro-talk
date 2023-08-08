@@ -9,10 +9,13 @@ macOS menu bar application to speak the revolutionary language of tech bro or co
 - Swift
 - SwiftUI
 
+## Installation
+Head to the ![Releases](https://github.com/joshua-mae/tech-bro-talk/releases/tag/v1.0.0) to find the latest dmg 
+
 ## Acknowledgements
 The APIs that I used came from these two places:
 - ![Tech Slang](https://github.com/PerryPal21/Techy-API)
-- ![Corporate Slang](https://github.com/sameerkumar18/corporate-bs-generator-api/blob/master/LICENSE)
+- ![Corporate Slang](https://github.com/sameerkumar18/corporate-bs-generator-api)
 
 ## Author 
 Joshua Mae

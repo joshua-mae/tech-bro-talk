@@ -1,0 +1,27 @@
+name: Builds macOS project using CI/CD process
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  Build-macOS-Project:
+    name: Build macOS project
+    runs-on: macos-latest
+    steps:
+      - name: Checkout from repository
+        uses: actions/checkout@v3
+        
+      - name: Print out help command from xcodebuild
+        run: xcodebuild -help
+
+      - name: List out project specs
+        run: xcodebuild -list -project TechSpeak.xcodeproj
+
+      - name: Clean macOS project
+        run: xcodebuild clean
+
+      

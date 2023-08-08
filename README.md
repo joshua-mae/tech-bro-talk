@@ -1,7 +1,8 @@
 # tech-bro-talk
 
 [![Language](https://img.shields.io/badge/language-swift-F54A2A.svg)](https://google.github.io/swift/)
-[![Github Style Guide](https://img.shields.io/badge/platform-macOS-F54A2A.svg)](https://github.com/joshua-mae/tech-bro-talk) </br>
+[![Github Style Guide](https://img.shields.io/badge/platform-macOS-F54A2A.svg)](https://github.com/joshua-mae/tech-bro-talk) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) </br>
 
 macOS menu bar application to speak the revolutionary language of tech bro or corporate slang.  Find phrases that can help you blend in to the corporate environment and get you that promotion in no time.  
 

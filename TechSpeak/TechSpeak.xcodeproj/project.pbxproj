@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45EA6C7C2A81D2E30009DADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6C7B2A81D2E30009DADD /* AppDelegate.swift */; };
-		45EA6C7E2A81D2E30009DADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6C7D2A81D2E30009DADD /* ViewController.swift */; };
-		45EA6C802A81D2E30009DADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EA6C7F2A81D2E30009DADD /* Assets.xcassets */; };
-		45EA6C8B2A81D3510009DADD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6C8A2A81D3510009DADD /* main.swift */; };
-		45EA6C8F2A81D5D70009DADD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6C8E2A81D5D70009DADD /* WebService.swift */; };
-		45EA6C912A81D6A20009DADD /* Tech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6C902A81D6A20009DADD /* Tech.swift */; };
+		4561848C2A82C28900AB35E0 /* Corporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561848B2A82C28900AB35E0 /* Corporate.swift */; };
+		4561848E2A82C2B400AB35E0 /* CorporateSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561848D2A82C2B400AB35E0 /* CorporateSentence.swift */; };
+		45EA6CBC2A829D000009DADD /* TechSpeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6CBB2A829D000009DADD /* TechSpeakApp.swift */; };
+		45EA6CBE2A829D000009DADD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6CBD2A829D000009DADD /* ContentView.swift */; };
+		45EA6CC02A829D000009DADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EA6CBF2A829D000009DADD /* Assets.xcassets */; };
+		45EA6CC32A829D000009DADD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EA6CC22A829D000009DADD /* Preview Assets.xcassets */; };
+		45EA6CCE2A82A0D10009DADD /* Tech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6CCD2A82A0D10009DADD /* Tech.swift */; };
+		45EA6CD32A82A4BC0009DADD /* TechSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6CD22A82A4BC0009DADD /* TechSentence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45EA6C782A81D2E30009DADD /* TechSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		45EA6C7B2A81D2E30009DADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45EA6C7D2A81D2E30009DADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45EA6C7F2A81D2E30009DADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45EA6C842A81D2E30009DADD /* TechSpeak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TechSpeak.entitlements; sourceTree = "<group>"; };
-		45EA6C8A2A81D3510009DADD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		45EA6C8C2A81D46F0009DADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		45EA6C8E2A81D5D70009DADD /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		45EA6C902A81D6A20009DADD /* Tech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech.swift; sourceTree = "<group>"; };
+		4561848B2A82C28900AB35E0 /* Corporate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corporate.swift; sourceTree = "<group>"; };
+		4561848D2A82C2B400AB35E0 /* CorporateSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateSentence.swift; sourceTree = "<group>"; };
+		45EA6CB82A829D000009DADD /* TechSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EA6CBB2A829D000009DADD /* TechSpeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSpeakApp.swift; sourceTree = "<group>"; };
+		45EA6CBD2A829D000009DADD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45EA6CBF2A829D000009DADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45EA6CC22A829D000009DADD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45EA6CC42A829D000009DADD /* TechSpeak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TechSpeak.entitlements; sourceTree = "<group>"; };
+		45EA6CCD2A82A0D10009DADD /* Tech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech.swift; sourceTree = "<group>"; };
+		45EA6CD22A82A4BC0009DADD /* TechSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSentence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45EA6C752A81D2E30009DADD /* Frameworks */ = {
+		45EA6CB52A829D000009DADD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,47 +41,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45EA6C6F2A81D2E30009DADD = {
+		45EA6CAF2A829D000009DADD = {
 			isa = PBXGroup;
 			children = (
-				45EA6C7A2A81D2E30009DADD /* TechSpeak */,
-				45EA6C792A81D2E30009DADD /* Products */,
+				45EA6CBA2A829D000009DADD /* TechSpeak */,
+				45EA6CB92A829D000009DADD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		45EA6C792A81D2E30009DADD /* Products */ = {
+		45EA6CB92A829D000009DADD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45EA6C782A81D2E30009DADD /* TechSpeak.app */,
+				45EA6CB82A829D000009DADD /* TechSpeak.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45EA6C7A2A81D2E30009DADD /* TechSpeak */ = {
+		45EA6CBA2A829D000009DADD /* TechSpeak */ = {
 			isa = PBXGroup;
 			children = (
-				45EA6C8C2A81D46F0009DADD /* Info.plist */,
-				45EA6C7B2A81D2E30009DADD /* AppDelegate.swift */,
-				45EA6C8A2A81D3510009DADD /* main.swift */,
-				45EA6C7D2A81D2E30009DADD /* ViewController.swift */,
-				45EA6C8E2A81D5D70009DADD /* WebService.swift */,
-				45EA6C902A81D6A20009DADD /* Tech.swift */,
-				45EA6C7F2A81D2E30009DADD /* Assets.xcassets */,
-				45EA6C842A81D2E30009DADD /* TechSpeak.entitlements */,
+				45EA6CBB2A829D000009DADD /* TechSpeakApp.swift */,
+				45EA6CCB2A82A0950009DADD /* View */,
+				45EA6CCC2A82A0A00009DADD /* ViewModel */,
+				45EA6CCA2A82A08F0009DADD /* Model */,
+				45EA6CBF2A829D000009DADD /* Assets.xcassets */,
+				45EA6CC42A829D000009DADD /* TechSpeak.entitlements */,
+				45EA6CC12A829D000009DADD /* Preview Content */,
 			);
 			path = TechSpeak;
+			sourceTree = "<group>";
+		};
+		45EA6CC12A829D000009DADD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45EA6CC22A829D000009DADD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45EA6CCA2A82A08F0009DADD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45EA6CCD2A82A0D10009DADD /* Tech.swift */,
+				4561848B2A82C28900AB35E0 /* Corporate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45EA6CCB2A82A0950009DADD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45EA6CBD2A829D000009DADD /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45EA6CCC2A82A0A00009DADD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45EA6CD22A82A4BC0009DADD /* TechSentence.swift */,
+				4561848D2A82C2B400AB35E0 /* CorporateSentence.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45EA6C772A81D2E30009DADD /* TechSpeak */ = {
+		45EA6CB72A829D000009DADD /* TechSpeak */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45EA6C872A81D2E30009DADD /* Build configuration list for PBXNativeTarget "TechSpeak" */;
+			buildConfigurationList = 45EA6CC72A829D000009DADD /* Build configuration list for PBXNativeTarget "TechSpeak" */;
 			buildPhases = (
-				45EA6C742A81D2E30009DADD /* Sources */,
-				45EA6C752A81D2E30009DADD /* Frameworks */,
-				45EA6C762A81D2E30009DADD /* Resources */,
+				45EA6CB42A829D000009DADD /* Sources */,
+				45EA6CB52A829D000009DADD /* Frameworks */,
+				45EA6CB62A829D000009DADD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +122,25 @@
 			);
 			name = TechSpeak;
 			productName = TechSpeak;
-			productReference = 45EA6C782A81D2E30009DADD /* TechSpeak.app */;
+			productReference = 45EA6CB82A829D000009DADD /* TechSpeak.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		45EA6C702A81D2E30009DADD /* Project object */ = {
+		45EA6CB02A829D000009DADD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					45EA6C772A81D2E30009DADD = {
+					45EA6CB72A829D000009DADD = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 45EA6C732A81D2E30009DADD /* Build configuration list for PBXProject "TechSpeak" */;
+			buildConfigurationList = 45EA6CB32A829D000009DADD /* Build configuration list for PBXProject "TechSpeak" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,44 +148,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 45EA6C6F2A81D2E30009DADD;
-			productRefGroup = 45EA6C792A81D2E30009DADD /* Products */;
+			mainGroup = 45EA6CAF2A829D000009DADD;
+			productRefGroup = 45EA6CB92A829D000009DADD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45EA6C772A81D2E30009DADD /* TechSpeak */,
+				45EA6CB72A829D000009DADD /* TechSpeak */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45EA6C762A81D2E30009DADD /* Resources */ = {
+		45EA6CB62A829D000009DADD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EA6C802A81D2E30009DADD /* Assets.xcassets in Resources */,
+				45EA6CC32A829D000009DADD /* Preview Assets.xcassets in Resources */,
+				45EA6CC02A829D000009DADD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45EA6C742A81D2E30009DADD /* Sources */ = {
+		45EA6CB42A829D000009DADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EA6C7E2A81D2E30009DADD /* ViewController.swift in Sources */,
-				45EA6C7C2A81D2E30009DADD /* AppDelegate.swift in Sources */,
-				45EA6C8F2A81D5D70009DADD /* WebService.swift in Sources */,
-				45EA6C912A81D6A20009DADD /* Tech.swift in Sources */,
-				45EA6C8B2A81D3510009DADD /* main.swift in Sources */,
+				4561848E2A82C2B400AB35E0 /* CorporateSentence.swift in Sources */,
+				45EA6CCE2A82A0D10009DADD /* Tech.swift in Sources */,
+				4561848C2A82C28900AB35E0 /* Corporate.swift in Sources */,
+				45EA6CD32A82A4BC0009DADD /* TechSentence.swift in Sources */,
+				45EA6CBE2A829D000009DADD /* ContentView.swift in Sources */,
+				45EA6CBC2A829D000009DADD /* TechSpeakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		45EA6C852A81D2E30009DADD /* Debug */ = {
+		45EA6CC52A829D000009DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		45EA6C862A81D2E30009DADD /* Release */ = {
+		45EA6CC62A829D000009DADD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +300,7 @@
 			};
 			name = Release;
 		};
-		45EA6C882A81D2E30009DADD /* Debug */ = {
+		45EA6CC82A829D000009DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -271,13 +309,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechSpeak/Preview Content\"";
 				DEVELOPMENT_TEAM = F6V3R8N37B;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TechSpeak/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -290,7 +328,7 @@
 			};
 			name = Debug;
 		};
-		45EA6C892A81D2E30009DADD /* Release */ = {
+		45EA6CC92A829D000009DADD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,13 +337,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechSpeak/Preview Content\"";
 				DEVELOPMENT_TEAM = F6V3R8N37B;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TechSpeak/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -321,25 +359,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45EA6C732A81D2E30009DADD /* Build configuration list for PBXProject "TechSpeak" */ = {
+		45EA6CB32A829D000009DADD /* Build configuration list for PBXProject "TechSpeak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45EA6C852A81D2E30009DADD /* Debug */,
-				45EA6C862A81D2E30009DADD /* Release */,
+				45EA6CC52A829D000009DADD /* Debug */,
+				45EA6CC62A829D000009DADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45EA6C872A81D2E30009DADD /* Build configuration list for PBXNativeTarget "TechSpeak" */ = {
+		45EA6CC72A829D000009DADD /* Build configuration list for PBXNativeTarget "TechSpeak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45EA6C882A81D2E30009DADD /* Debug */,
-				45EA6C892A81D2E30009DADD /* Release */,
+				45EA6CC82A829D000009DADD /* Debug */,
+				45EA6CC92A829D000009DADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 45EA6C702A81D2E30009DADD /* Project object */;
+	rootObject = 45EA6CB02A829D000009DADD /* Project object */;
 }

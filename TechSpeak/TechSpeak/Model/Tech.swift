@@ -2,13 +2,12 @@
 //  Tech.swift
 //  TechSpeak
 //
-//  Created by Joshua Mae on 8/7/23.
+//  Created by Joshua Mae on 8/8/23.
 //
 
-//https://corporatebs-generator.sameerkumar.website/ -> next
 import Foundation
 
-struct Tech: Codable {
+struct Tech: Decodable {
     let tech: String
 
     enum CodingKeys: String, CodingKey {

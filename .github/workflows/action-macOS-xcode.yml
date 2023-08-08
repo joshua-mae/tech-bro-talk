@@ -1,4 +1,4 @@
-name: Builds macOS project using CI/CD process
+name: Xcodebuild Workflow
 
 on:
   push:
